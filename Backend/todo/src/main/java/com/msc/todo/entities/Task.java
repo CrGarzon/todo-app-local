@@ -19,7 +19,7 @@ public class Task {
 		@Column(name = "creation_date")
 		private Date creationDate;
 		@Column(name = "finish_date")
-		private Date finishDate;
+		private Date finishDate;  
 		private boolean finished;
 		public long getId() {
 			return id;
